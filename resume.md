@@ -1,17 +1,13 @@
 ---
 layout: page
-title: Resume
+title: My Resume
 permalink: /resume/
 ---
 
-You Li
+You Li (Valerie)
 =======
 
-----------------------------       ----------------------------
-425 Washington Blvd, Apt2105                liyouvane@gmail.com
-Jersey City, NJ07310                                 @liyouvane
-United States                                      857-253-8426
-----------------------------       ----------------------------
+Email: liyouvane@gmail.com
 
 Education
 ---------
