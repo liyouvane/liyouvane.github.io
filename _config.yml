@@ -9,7 +9,7 @@ url: http://liyouvane.github.io # site url
 # baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-XXXXX-XX
-repo: http://github.com/heiswayi/thinkspace
+repo: http://github.com/liyouvane/liyouvane.github.io
 disqus_shortname: "liyouvane"
 twitter_username: "liyouvane"
 comments: true
@@ -31,7 +31,7 @@ sass:
 author:
   name     : "Valerie Li"
   job      : "Student at New York University"
-  bio      : "1+1=3 is always TRUE in my world, a balance between binary and reality."
+  bio      : "Perstare et praestare."
   thumb    : /images/author.jpg
   email    : liyouvane@gmail.com
   url      : http://liyouvane.github.io
