@@ -51,10 +51,10 @@ gems:
 
 # navbar pages
 navbar:
+  - slug : home
+    title: Home
   - slug : about
     title: About
-  - slug : blog
-    title: Blog
   - slug : resume
     title: resume
     
