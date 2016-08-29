@@ -1,40 +1,7 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading small-site-title">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list footer-content">
-          <li>Powered By <a href="http://github.com/hemangsk/Gravity">Gravity</a></li>
-          <li>Made with <i class="fa fa-heart"></i> on <a href="jekyll.com"><span style="color:black">{ { Jekyll } }</a></span></li>
-
-
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2 footer-content">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3 site-description">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+  <div class="container">
+    <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</small>
+    <small class="block">Made with <i class="fa fa-heart" aria-hidden="true" style="color:#DD3D36"></i> using <a href="http://jekyllrb.com/">Jekyll</a>. Typeface by <a href="https://www.fontsquirrel.com/fonts/dejavu-sans-mono">DejaVu Sans Mono</a> and <a href="http://fontawesome.io/">Font Awesome</a>.</small>
+    <small><a href="https://github.com/heiswayi/thinkspace">Thinkspace</a> theme by <a href="http://heiswayi.github.io/">Heiswayi Nrird</a>.</small>
   </div>
-
 </footer>
