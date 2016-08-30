@@ -1,4 +1,4 @@
----
+ ---
 layout: page
 title: My Resume
 permalink: /resume/
@@ -61,7 +61,7 @@ Projects
 
 * Used multiple ways to classify data from UCI Machine Learning Repository, including KNN, CART, SVM and compare them from different aspects.
 
-* ImprovedBoostingAlgorithmbyreferringtothepaperImprovedBoostingAlgorithmsUsingConfidence- rated Predictions and implemented three algorithms.
+* Improved Boosting Algorithm by referring to the paper Improved Boosting Algorithms Using Confidence-rated Predictions and implemented three algorithms.
 
 **Travel Management System, Prof.Meng Sun, Peking University**
 : Mathematical Modeling, April 2014 - June 2014 
