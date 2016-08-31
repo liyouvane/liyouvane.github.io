@@ -64,11 +64,19 @@ Projects
 * Improved Boosting Algorithm by referring to the paper Improved Boosting Algorithms Using Confidence-rated Predictions and implemented three algorithms.
 
 **Travel Management System, Prof.Meng Sun, Peking University**
-: Mathematical Modeling, April 2014 - June 2014 
+: Mathematical Modeling, May 2014 - August 2014 
 
 * Calculated the minimum cost between any two spots by using Dijkstra algorithm, the minimum cost of tracking all spots by dynamic programming and the minimum cost of Hamiltonian cycle by backtracking algorithm;
 
 * Programmed Dijkstra algorithm with list structure in C language; Implemented Human-Computer Interaction allowing administrator or tourists to change data; Tested the stability of the system through large scales of data.
+
+**Research on Modular Group, Prof.Yongbin Ruan, University of Michigan**
+: Undergraduate Research Program, May 2014 - July 2014
+
+*Read about Mathematical Physics related books and papers. Including Differential Geometry, Differential Manifold, PDE and reports on Spectral Theory of Laplace and Schrödinger Operators Workshop in 2013
+
+*Found out three different methods to determine modular group of Picard-Fuchs equation, namely pure geometric, basing on Picard-Lefschetz Formula, and some basic integral skills. Wrote a paper named The Modular Group of Picard-Fuchs Equation in English.
+
 
 Honors and Awards
 ----------------------------------------
