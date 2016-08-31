@@ -18,7 +18,7 @@ Education
 **Peking University, School of Mathematical Sciences**
 : BSc, Mathematics, September 2012 - July 2016
 
-**Northwestern University, School of Mathematical Sciences**
+**Northwestern University, Department of Mathematics**
 : Summer School in Geometric Analysis, July 2015
 
 Experience
