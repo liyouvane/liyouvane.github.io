@@ -73,9 +73,9 @@ Projects
 **Research on Modular Group, Prof.Yongbin Ruan, University of Michigan**
 : Undergraduate Research Program, May 2014 - July 2014
 
-*Read about Mathematical Physics related books and papers. Including Differential Geometry, Differential Manifold, PDE and reports on Spectral Theory of Laplace and Schrödinger Operators Workshop in 2013
+* Read about Mathematical Physics related books and papers. Including Differential Geometry, Differential Manifold, PDE and reports on Spectral Theory of Laplace and Schrödinger Operators Workshop in 2013
 
-*Found out three different methods to determine modular group of Picard-Fuchs equation, namely pure geometric, basing on Picard-Lefschetz Formula, and some basic integral skills. Wrote a paper named The Modular Group of Picard-Fuchs Equation in English.
+* Found out three different methods to determine modular group of Picard-Fuchs equation, namely pure geometric, basing on Picard-Lefschetz Formula, and some basic integral skills. Wrote a paper named The Modular Group of Picard-Fuchs Equation in English.
 
 
 Honors and Awards
