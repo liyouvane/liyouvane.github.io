@@ -44,39 +44,49 @@ Experience
 
 * Proposed solutions to improve traffic environment based on research results.
 
+
+**Department of Information Sciences, Peking University**
+
+:Research Assistant, September 2015 - January 2016, Beijing, China
+
+* Worked on bionic algorithms like Particle Swarm Optimization, Ant Colony Algorithm, Differential Evolution Algorithm, etc. to solve TSP problem and compared their performances.
+
+* Designed a pattern recognition system using ABC(Artificial Bees Colony) algorithm to recognize a certain pattern in given pictures.
+
+* Learnt and used multiple ways to classify data from UCI Machine Learning Repository, including KNN, CART, SVM and compared them from different aspects.
+
+
 Projects
 ----------------
+**Find Out the Volleyball Champion**
+: Python, HTML/CSS, mySQL, June 2016 - August 2016
 
-**Course Project, Prof.Jinwen Ma, Peking University**
-: Intelligent Computation, September 2015 - January 2016
+* Crawled data about women volleyball players who are attending 2016 Olympic from official websites including their names, clubs, spike heights, block heights, etc.
+* 
+* Designed an interaction backstage in Weixin application which can be easily accessed to inquire all the information for regular users anywhere and anytime.
+* 
+* Designed a website along with students from Natural Language Processing group to extract information from data, compare players abilities and predict which team would be the winner automatically.
 
-* Used ABC(Artificial Bees Colony) algorithm to recognize the ellipses in an given picture
+**A Better Course Scheduling System**
+: C,C++, March 2014 - September 2014
 
-* Utilized Particle Swarm Optimization and ABC to find the maximum and minimum values of Extended Powell Singular function and visualized the algorithms;
+* Designed and optimized a course scheduling model, analyzed the process of course-selection in our school and designed a more efficient way to arrange courses to satisfy students varied needs.
 
-* Solved TSP problem through Artificial Ant Colony Algorithm and Differential Evolution Algorithm and tested a set of given data in two-dimensional case.
-
-**Course Project, Prof.Kedian Mu, Peking University**
-: Machine Learning, September 2015 - January 2016 
-
-* Used multiple ways to classify data from UCI Machine Learning Repository, including KNN, CART, SVM and compare them from different aspects.
-
-* Improved Boosting Algorithm by referring to the paper Improved Boosting Algorithms Using Confidence-rated Predictions and implemented three algorithms.
-
-**Travel Management System, Prof.Meng Sun, Peking University**
-: Mathematical Modeling, May 2014 - August 2014 
-
-* Calculated the minimum cost between any two spots by using Dijkstra algorithm, the minimum cost of tracking all spots by dynamic programming and the minimum cost of Hamiltonian cycle by backtracking algorithm;
-
-* Programmed Dijkstra algorithm with list structure in C language; Implemented Human-Computer Interaction allowing administrator or tourists to change data; Tested the stability of the system through large scales of data.
+* Collected data from 180 students and tried out the new system within the department.
 
 **Research on Modular Group, Prof.Yongbin Ruan, University of Michigan**
 : Undergraduate Research Program, May 2014 - July 2014
 
-* Read about Mathematical Physics related books and papers. Including Differential Geometry, Differential Manifold, PDE and reports on Spectral Theory of Laplace and Schrödinger Operators Workshop in 2013
+* Read about Mathematical Physics related books and papers. Including Differential Geometry, Differential Manifold, PDE and reports on Spectral Theory of Laplace and Schrödinger Operators Workshop in 2013.
 
 * Found out three different methods to determine modular group of Picard-Fuchs equation, namely pure geometric, basing on Picard-Lefschetz Formula, and some basic integral skills. Wrote a paper named The Modular Group of Picard-Fuchs Equation in English.
 
+**A Traveling Management System**
+: C,C++, February 2014 - May 2014 
+
+* Calculated the minimum cost between any two spots by using Dijkstra algorithm, the minimum cost of tracking all spots by dynamic programming and the minimum cost of Hamiltonian cycle by backtracking algorithm.
+
+* Programmed Dijkstra algorithm with list structure in C language; Implemented Human-Computer Interaction allowing administrator or tourists to change data; Tested the stability of the system through large scales of data.
 
 Honors and Awards
 ----------------------------------------
