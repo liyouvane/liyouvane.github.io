@@ -62,9 +62,9 @@ Projects
 : Python, HTML/CSS, mySQL, June 2016 - August 2016
 
 * Crawled data about women volleyball players who are attending 2016 Olympic from official websites including their names, clubs, spike heights, block heights, etc.
-* 
+
 * Designed an interaction backstage in Weixin application which can be easily accessed to inquire all the information for regular users anywhere and anytime.
-* 
+
 * Designed a website along with students from Natural Language Processing group to extract information from data, compare players abilities and predict which team would be the winner automatically.
 
 **A Better Course Scheduling System**
