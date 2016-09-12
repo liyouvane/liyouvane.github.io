@@ -47,7 +47,7 @@ Experience
 
 **Department of Information Sciences, Peking University**
 
-:Research Assistant, September 2015 - January 2016, Beijing, China
+: Research Assistant, September 2015 - January 2016, Beijing, China
 
 * Worked on bionic algorithms like Particle Swarm Optimization, Ant Colony Algorithm, Differential Evolution Algorithm, etc. to solve TSP problem and compared their performances.
 
