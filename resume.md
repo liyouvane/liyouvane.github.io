@@ -103,7 +103,7 @@ Honors and Awards
 Other
 ----------------------------------------
 * Computer Skills:
-    * Basic Knowledge: Mathematica, Matlab, Python
+    * Basic Knowledge: Mathematica, Matlab, Python, HTML/CSS
     * Intermediate Knowledge: C/C++, LATEX, Markdown
 
 * Human Languages:
