@@ -4,7 +4,8 @@ title: "Dream"
 title2: "Big" # default: ""
 description: "Here's to Dream Big, to Think Bold, and never Give Up."
 #keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url: http://liyouvane.github.io # site url
+#url: http://liyouvane.github.io # site url
+url: http://cims.nyu.edu/~yl4339
 #baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
