@@ -6,7 +6,7 @@ tag:
 - atom
 - project
 image: /assets/sml-highlighter-screenshot.png
-headerImage: true
+headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is a simple package for atom editor."
@@ -18,4 +18,6 @@ externalLink: false
 
 This is designed for Standard ML language.
 
-Color your SML code. Color your mood.
+Now designed for people as beautiful as you:
+
+*Color your SML code. Color your mood.*
