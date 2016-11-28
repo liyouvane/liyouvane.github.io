@@ -13,7 +13,8 @@ description: "This is a simple package for atom editor."
 author: You Li
 externalLink: false
 ---
-![Screenshot](https://github.com/liyouvane/liyouvane.github.io/assets/sml-highlighter-screenshot.png)
+
+![Screenshot](/assets/sml-highlighter-screenshot.png)
 
 This is designed for Standard ML language.
 
