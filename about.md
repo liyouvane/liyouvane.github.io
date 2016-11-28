@@ -4,12 +4,11 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+<p>I am a Master Student majoring in Computer Science here at Courant Institute of Mathematical Sciences, New York University. My interests include intelligent systems, machine learning, and of course, software engineering.</p>
+
+<p>Also, I am an indie musician, an amateur table tennis player, a long-distance runner and an American talkshows interpreter.</p>
+
+<p>Recently, I am seeking for 2017 Summer Software Engineering Internship opportunities. Check out my resume<a href="http://cims.nyu.edu/~yl4339/resume.html">here</a> If you have interests in me, don't hesitate to contact me!</p>
 
 <h2>Skills</h2>
 
@@ -25,8 +24,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
 <h2>Projects</h2>
 
 <ul>
+<li><a href="https://github.com/liyouvane/sml-highlighter">SML highlighter for Atom</a></li>
 <li><a href="https://github.com/liyouvane/Matrix-Factorization-for-Recommender-System">Recommender System</a></li>
 <li><a href="https://github.com/liyouvane/Matrix-Factorization-for-Knowledgebase-Completion">Knowledge Base Completion</a></li>
 <li><a href="https://github.com/liyouvane/Weixin-Backstage">Wechat Backstage</a></li>
-<li><a href="https://github.com/liyouvane/sml-highlighter">SML highlighter for Atom</a></li>
 </ul>

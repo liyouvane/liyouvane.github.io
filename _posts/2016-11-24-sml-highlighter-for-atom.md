@@ -5,8 +5,8 @@ date: 2016-11-24 22:30
 tag:
 - atom
 - project
-image: /assets/images/jekyll-logo-light-solid.png
-headerImage: false
+image: /assets/sml-highlighter-screenshot.png
+headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is a simple package for atom editor."
