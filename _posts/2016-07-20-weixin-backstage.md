@@ -1,10 +1,18 @@
 ---
+title: "Python+sae开发微信公众平台后台简明教程"
 layout: post
-title:  "Python+sae开发微信公众平台后台简明教程"
-comments: true
-categories: ["diary", "python", "life"]
-description: "微信后台配置笔记：Webpy＋SAE"
+date: 2016-07-20 20:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- develop
+- diary
+- python
+blog: true
+author: You Li
+description: 微信后台配置笔记：Webpy＋SAE
 ---
+
 ## 前言
 
 笔者本来并没有写攻略的习惯，因为在Google上找到的教程大多数都比较靠谱，没有必要自己仿照他们的重新写一遍。但是这几天为了实验室一个要上线的项目折腾了几天的微信后台开发，意识到了大多数网络上的教程都是抄来抄去，甚至连代码中的错误都一模一样，作者们似乎都没有自己测试过。因此决定记录一下最简单的微信后台开发方法。本文采用Python语言，笔者也不是非常熟悉，正在学习的过程中，用php或者java做后台都可以，原理应该都差不多，也许读了本文就不需要再去读微信公众平台开发者文档了（还是建议读一下）。
@@ -22,7 +30,7 @@ description: "微信后台配置笔记：Webpy＋SAE"
 在`config.yaml`文件中，在name和version之下添加代码
 
     libraries:
-    - name: webpy 
+    - name: webpy
       version: "0.36"
     - name: lxml
       version: "2.3.4"
@@ -31,21 +39,21 @@ description: "微信后台配置笔记：Webpy＋SAE"
 
     #coding: UTF-8
     import os
-    
+
     import sae
     import web
-    
+
     from weixinInterface import WeixinInterface
-    
+
     urls = (
     '/weixin','WeixinInterface'
     )
-    
+
     app_root = os.path.dirname(__file__)
     templates_root = os.path.join(app_root, 'templates')
     render = web.template.render(templates_root)
-    
-    app = web.application(urls, globals()).wsgifunc()        
+
+    app = web.application(urls, globals()).wsgifunc()
     application = sae.create_wsgi_app(app)
 
 其中我们相当于把我们的服务器地址设在了`http://1.xxxx.applinzi.com/weixin`（这也就是微信后台所需要提供的服务器地址）。注意到，我们这里提到了一些其它的文件，比如`'templates'`和`'WeixinInterface'`。接下来就在代码编写页面创建空文件夹`templates`虽然我们暂时用不到，但是之后文件夹中将会放上`.xml`文件方便我们在调用不同的后台回复方式。
@@ -61,14 +69,14 @@ description: "微信后台配置笔记：Webpy＋SAE"
     import os
     import urllib2,json
     from lxml import etree
-    
+
     class WeixinInterface:
-    
+
         def __init__(self):
             self.app_root = os.path.dirname(__file__)
             self.templates_root = os.path.join(self.app_root, 'templates')
             self.render = web.template.render(self.templates_root)
-    
+
         def GET(self):
             #获取输入参数
             data = web.input()
@@ -84,8 +92,8 @@ description: "微信后台配置笔记：Webpy＋SAE"
             sha1=hashlib.sha1()
             map(sha1.update,list)
             hashcode=sha1.hexdigest()
-            #sha1加密算法        
-    
+            #sha1加密算法
+
             #如果是来自微信的请求，则回复echostr
             if hashcode == signature:
                 return echostr
@@ -113,7 +121,7 @@ description: "微信后台配置笔记：Webpy＋SAE"
 
 我们回到主程序`weixinInterface.py`，在class中再添加一个POST方法（和GET方法同缩进），代码如下
 
-    def POST(self):        
+    def POST(self):
             str_xml = web.data() #获得post来的数据
             xml = etree.fromstring(str_xml)#进行XML解析
             content=xml.find("Content").text#获得用户所输入的内容
@@ -124,7 +132,7 @@ description: "微信后台配置笔记：Webpy＋SAE"
 
 这段代码中显然我们没有处理我们得到的消息，而是直接获得之后就返回给对方。如果我们想设置口令，返回给用户特定消息怎么办？可以将代码修改如下
 
-    def POST(self):        
+    def POST(self):
             str_xml = web.data() #获得post来的数据
             xml = etree.fromstring(str_xml)#进行XML解析
             msgType=xml.find("MsgType").text

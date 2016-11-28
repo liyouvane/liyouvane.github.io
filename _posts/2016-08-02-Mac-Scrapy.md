@@ -1,9 +1,16 @@
 ---
+title: "Mac上安装Scrapy中的问题与解决方法"
 layout: post
-title:  "Mac上安装Scrapy中的问题与解决方法"
-comments: true
-categories: ["diary", "python", "life"]
-description: "解决在安装Scrapy中遇到的小困难"
+date: 2016-08-02 22:40
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- python
+- develop
+- diary
+blog: true
+author: You Li
+description: 解决在安装Scrapy中遇到的小困难
 ---
 
 之前在别的电脑上配置过scrapy，后来换了mac一直没有写过爬虫，今天跟着官方指南走的时候发现安装失败很久，代码里显示`ImportError: No module named scrapy`意识到安装可能出了一些问题。
@@ -22,7 +29,7 @@ Stackoverflow上面[提到这个问题](http://stackoverflow.com/questions/10570
 如果用的是mac自带bash，应当把上述代码中的`zshrc`替换为`bashrc`.
 
 在重新安装的过程中，显示
-    
+
     OSError: [Errno 1] Operation not permitted: '/var/folders/6t/h404bjcd5tb_4q86tpv_251rv_0h0j/T/pip-sYsqDS-uninstall/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/six-1.4.1-py2.7.egg-info'
 
 这样的代码错误。在查询github上的[解决方法](https://github.com/pypa/pip/issues/3165 )之后，发现这似乎是El-Capitan系统的一个通病。办法就是 `pip install scrapy --ignore-installed six`。如果出现权限问题的话，就修改代码为`sudo -H pip install scrapy --ignore-installed six`。

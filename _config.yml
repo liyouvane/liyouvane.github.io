@@ -1,62 +1,110 @@
+# main text of home
+name: You Li
+bio: Coding...
 
-# SEO settings
-title: "Dream"
-title2: "Big" # default: ""
-description: "Here's to Dream Big, to Think Bold, and never Give Up."
-#keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-#url: http://liyouvane.github.io # site url
-url: http://cims.nyu.edu/~yl4339
-#baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
-# baseurl: null # apply null if repo name is something like username.github.io
+# twitter summary info
+description: A blog about technology and stuff related
 
-google_analytics: UA-XXXXX-XX
-repo: http://github.com/liyouvane/liyouvane.github.io
-disqus_shortname: "liyouvane"
-twitter_username: "liyouvane"
-comments: true
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
 
-# Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
+url: https://liyouvane.github.io
+# your url: http://USERNAME.github.io
 
-source: ./
-destination: ./_site
+permalink: /:title/
 
-# Sass configuration
+markdown: kramdown
+highlighter: rouge
+
+# To enable google analytics, supply your token below
+analytics-google: 'UA-88055092-1'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, set to false
+disqus: liyouvane
+
+# if you don't have any of social below, comment the line
+facebook: liyouvane
+twitter: liyouvane
+# google: mygoogle
+instagram: liyouvane
+# pinterest: mypinterest
+linkedin: liyouvane
+youtube: liyouvane
+# spotify: myspotify
+github: liyouvane
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+email: liyouvane@gmail.com
+
+authors:
+    johndoe:
+        name: You Li
+        bio: Coder
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: liyouvane
+    # jamesfoster:
+    #     name: James Foster
+    #     bio: A Man who develops software with coffee
+    #     external-image: false
+    #     picture: assets/images/james.jpg
+    #     twitter: jamesfoster
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# show next & prev links in blog post?
+blog-nav-links: true
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
 sass:
-  sass_dir: assets/scss
-  style: compressed # expanded
-
-# Author settings
-author:
-  name     : "Valerie Li"
-  job      : "Student at New York University"
-  bio      : "Perstare et praestare."
-  thumb    : /images/author.jpg
-  email    : liyouvane@gmail.com
-  url      : http://liyouvane.github.io
-  github   : http://github.com/liyouvane
-  twitter  : http://twitter.com/liyouvane
-  facebook : https://www.facebook.com/liyouvane
-  linkedin : http://linkedin.com/in/liyouvane
-
-# social settings
-og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "@liyouvane"
+    sass_dir: _sass
+    style: :compressed
 
 gems:
-  - bourbon
+  - jemoji
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-paginate
 
-# navbar pages
-navbar:
-  - slug : home
-    title: Home
-  - slug : about
-    title: About
-  - slug : resume
-    title: resume
-    
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+jekyll-mentions:
+    base_url: https://github.com
