@@ -1,5 +1,5 @@
 ---
-title: "NYT search engine, an engine for news readers"
+title: "NYT search engine, an engine for readers"
 layout: post
 date: 2016-12-13 11:30
 tag:
