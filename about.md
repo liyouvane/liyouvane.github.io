@@ -8,7 +8,7 @@ layout: page
 
 <p>Also, I am an indie musician, amateur table tennis player, long-distance runner and American talkshows interpreter.</p>
 
-<p>Recently, I am seeking for 2017 Summer Software Engineering Internship opportunities. Check out my resume<a href="http://cims.nyu.edu/~yl4339/resume.html">here</a> If you have interests in me, don't hesitate to contact me!</p>
+<p>Recently, I am seeking for 2017 Summer Software Engineering Internship opportunities. Check out my resume <a href="http://cims.nyu.edu/~yl4339/resume.html">here</a>. If you have interests in me, don't hesitate to contact me!</p>
 
 <h2>Skills</h2>
 
