@@ -14,6 +14,8 @@ author: You Li
 externalLink: false
 ---
 
+![Screenshot](/assets/search-engine-screenshot.png)
+
 Sick of news website crowded with fake contents? Want to read New York Times but hate its crappy search function? Try our New York Times news search engine! We provide you with latest news, section recommendation, hot topics and coolest auto-completion!
 
 *We care what you think, and what you read.*
