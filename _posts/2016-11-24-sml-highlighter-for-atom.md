@@ -21,3 +21,5 @@ This is designed for Standard ML language.
 Now designed for people as beautiful as you:
 
 *Color your SML code. Color your mood.*
+
+Check out latest version <a href="https://atom.io/packages/sml-highlighter" target="_blank">here</a>!
