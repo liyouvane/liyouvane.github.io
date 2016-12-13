@@ -18,4 +18,4 @@ Sick of news website crowded with fake contents? Want to read New York Times but
 
 *We care what you think, and what you read.*
 
-Check out our engine <a href="http://newyorktimes.eastus.cloudapp.azure.com/" target="_blank">here</a>!
+Check out our <a href="http://newyorktimes.eastus.cloudapp.azure.com/" target="_blank">demo</a>!
