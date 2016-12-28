@@ -1,5 +1,5 @@
 ---
-title: "Where to meetup"
+title: "Find out where to Meetup"
 layout: post
 date: 2016-12-13 11:30
 tag:
