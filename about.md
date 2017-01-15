@@ -15,17 +15,8 @@ layout: page
 <ul class="skill-list">
     <li>C++/C</li>
     <li>Java</li>
-    <li>Scheme</li>
+    <li>Scala</li>
     <li>Javascript</li>
 	<li>HTML/CSS</li>
 	<li>Git</li>
-</ul>
-
-<h2>Projects</h2>
-
-<ul>
-<li><a href="https://github.com/liyouvane/sml-highlighter">SML highlighter for Atom</a></li>
-<li><a href="https://github.com/liyouvane/Matrix-Factorization-for-Recommender-System">Recommender System</a></li>
-<li><a href="https://github.com/liyouvane/Matrix-Factorization-for-Knowledgebase-Completion">Knowledge Base Completion</a></li>
-<li><a href="https://github.com/liyouvane/Weixin-Backstage">Wechat Backstage</a></li>
 </ul>
