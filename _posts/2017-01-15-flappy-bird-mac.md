@@ -15,23 +15,13 @@ author: You Li
 externalLink: false
 ---
 
-![Screenshot](/assets/meetup-screenshot.png)
+![Screenshot](/assets/flappy-bird-screenshot.png)
 
 
 *We flap, and we laugh.*
 
-<!-- <a href="/assets/Downloads/Flappy Bird(Mac).dmg" download>Click to download</a> the .dmg version and enjoy the game! -->
-<div id="showCount"></div>
-<input type="button" value="Download Now!" onclick="window.location = 'https://drive.google.com/open?id=0Bx4t2At4V-PJdllCckE2eFN1c0U'; CountFun();">
-<script>
-   var cnt=0;
-   function CountFun(){
-    cnt=parseInt(cnt)+parseInt(1);
-    var divData=document.getElementById("showCount");
-    divData.innerHTML="Number of Downloads: ("+cnt +")";//this part has been edited
+<a href="https://drive.google.com/open?id=0Bx4t2At4V-PJdllCckE2eFN1c0U" target="_blank">Click to download</a> the game for Mac!
 
-   }
- </script>
 
 Report bugs or any of your ideas in the comments!
 
