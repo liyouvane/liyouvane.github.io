@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I am a Master Student majoring in Computer Science here at Courant Institute of Mathematical Sciences, New York University. My interests include intelligent systems, machine learning, and of course, software engineering.</p>
+<p>I am a Master Student majoring in Computer Science at Courant Institute, New York University. My interests include NLP, search engine, and web application development.</p>
 
 <p>Also, I am an indie musician, amateur table tennis player, long-distance runner and American talkshows interpreter.</p>
 
